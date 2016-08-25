@@ -20,6 +20,8 @@
     
     UILabel * label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     label.backgroundColor = [UIColor redColor];
+    label.text = @"gitHub";
+    label.textColor = [UIColor blackColor];
     [self.view addSubview:label];
 }
 
